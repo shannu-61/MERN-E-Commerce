@@ -145,7 +145,7 @@ main().catch((err) => console.log(err));
 
 async function main() {
   await mongoose.connect(
-    "mongodb+srv://shannu0073:Dallas01@ecommerce.w4flf38.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce"
+    "Your Database String"
   );
   console.log("database connected");
 }
