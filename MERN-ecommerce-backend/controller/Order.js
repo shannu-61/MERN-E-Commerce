@@ -61,7 +61,7 @@ exports.updateOrder = async (req, res) => {
 
     // Send additional content based on the status update
     let emailContent = "";
-    let contactNumber = "+1(903) 990 7270";
+    let contactNumber = "your number";
     switch (status) {
       case "dispatched":
         emailContent = `Your order with product ${order.items
