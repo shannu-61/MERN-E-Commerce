@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactStructureParent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 7%;
+    padding: 4rem 10% 3%;
+    height: 89vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contactFormStructureParent {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: white;
+    border-radius: 1rem;
+}
+
+.contactStructure {
+    border-radius: 1rem;
+    padding: 20px 26px;
+    box-sizing: border-box;
+}
+
+.ContactItemStructure {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.ContactItemIconStructure {
+    display: inline-block;
+    height: 7.5rem;
+    padding-right: 1rem;
+
+}
+
+.ContactItemDataFeildStructure {
+    height: 6.2rem;
+    padding: 0.4rem;
+
+}
+
+.contactStructureDataItems {
+    margin-left: 2rem;
+
+}
+
+.headerText {
+    font-weight: 600;
+    font-size: x-large;
+    font-family: 'Asap', sans-serif;
+}
+
+.messageText {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    font-size: medium;
+    font-family: 'Asap', sans-serif;
+
+}
+
+.footerText {
+    font-size: medium;
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+}
+
+.iconBorder {
+    border: 0.5px solid;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.socialMediaLinkStructure {
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+
+.ContactSocialLink {
+    text-decoration: none;
+    color: black;
+}
+
+.formHeading {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 3rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 3.5rem;
+}
+
+input[type=text],
+textarea {
+    border: none;
+    border-bottom: 1.5px solid white;
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    outline: none;
+    color: white;
+}
+
+input[type=submit] {
+    margin: 2rem 3rem 1rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    font-family: 'Asap', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+input[type=submit]:hover {
+    border: 2px solid #FBFADA;
+    color: #FBFADA;
+}
+
+label {
+    font-family: 'Asap', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+
+    .contactStructureParent {
+        padding: 8rem 0 3%;
+    }
+
+    .contactStructure {
+        margin: 0 1rem;
+    }
+
+    .contactFormStructureParent {
+        margin: 0 1rem;
+    }
+}
