@@ -111,7 +111,7 @@ function Checkout() {
       return;
     }
     const options = {
-      key: "rzp_test_hE7dPpkPbFZbc5",
+      key: "Your API Key",
       amount: amount.toString(),
       currency: "USD",
       name: "Bargain Bay",
